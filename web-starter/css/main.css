@@ -1,0 +1,29 @@
+
+.btn{
+  border-radius: 20px;
+}
+.fixed-top,.fixed-bottom{
+  background-color:teal;
+}
+
+.product{
+  height: 150px;
+  width: 150px;
+}
+
+.card{
+  width:150px;
+  height:fixed;
+  margin-top: 15px;
+}
+
+.recipeBox{
+  border: solid;
+  border-color:red;
+  border-radius: 20px;
+  margin-top: 3px;
+}
+ h1,h2,h3,h4,h5,h6,p{color:#292F36;}
+ *{
+   border-color:red;
+ }
