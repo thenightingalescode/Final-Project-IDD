@@ -1,9 +1,24 @@
 
+
+body{
+  background-color: #F7F7EA;
+}
+h1,h2,h3,h4,h5,h6,p{
+  color:#70ABAF;
+}
+
+.h1,.h2,.h3,.h4,.h5,.h6{
+  color:#70ABAF;
+
+}
+strong{
+  color:#FF7272;
+}
 .btn{
   border-radius: 20px;
 }
 .fixed-top,.fixed-bottom{
-  background-color:teal;
+  background-color:#F7F7EA;
 }
 
 .product{
@@ -19,11 +34,43 @@
 
 .recipeBox{
   border: solid;
-  border-color:red;
+  border-color:#AAA;
   border-radius: 20px;
   margin-top: 3px;
+  vertical-align: middle;
+
+
 }
- h1,h2,h3,h4,h5,h6,p{color:#292F36;}
- *{
-   border-color:red;
- }
+.align{
+  vertical-align:middle;
+}
+
+.signOn{
+  width:10em;
+}
+
+.white-space {
+  margin: 65px 0;
+}
+
+.tabSize{
+  height:2em;
+  width:auto;
+}
+.alert{
+  height:100%;
+  background-image: url("/Users/remi/Downloads/Final Project IDD/web-starter/images/backgroundAlert.jpg");
+  background-color: red;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#bgPicAlert{
+  background: rgba(170,170,170,.7);
+  border: solid;
+  border-color:#AAA;
+  border-radius: 20px;
+  margin-top: 3px;
+  vertical-align: middle;
+
+}
