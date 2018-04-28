@@ -1,29 +1,31 @@
 
-@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
-
+@import url('https://fonts.googleapis.com/css?family=Gugi|Roboto');
+@import url('cubano-regular-webfont.woff')
 
 body {
   background-color: #F7F7EA;
 }
-a,h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
+h1,h2,h3,h4,h5,h6{
   color:#47777F;
-  font-family:'Gugi', sans-serif;
+  font-family:'cubano-regular', sans-serif;
 }
 
- a>p{
+a{
   color:black;
-  font-family:'Gugi', sans-serif;
-  font-size: .9em;
 }
 
 p{
   font-size: 1.13em;
-  font-family:'Roboto Slab', serif;
+  font-family:'Roboto', sans-serif;
 }
 
+.h1,.h2,.h3,.h4,.h5,.h6{
+  color:#48777F;
+  font-family:'Gugi', sans-serif;
+
+}
 strong{
   color:#FF7272;
-  font-family:'Gugi', sans-serif;
 }
 .btn{
   border-radius: 20px;
@@ -42,9 +44,7 @@ strong{
   height:fixed;
   margin-top: 15px;
 }
-.card-body{
-  font-size: .9em;
-}
+
 .recipeBox{
   border: solid;
   border-color:#AAA;
@@ -53,8 +53,7 @@ strong{
   height:120px;
   display: flex;
   align-content: middle;
-  font-family:'Roboto Slab', serif;
-  font-size:.9em;
+
 }
 
 
@@ -78,19 +77,14 @@ strong{
 }
 
 #bgPicAlert{
-  background:rgba(255,255,255, 0.6);
+  background: rgba(170,170,170,.7);
   border: solid;
   border-color:#AAA;
   border-radius: 20px;
   margin-top: 3px;
   vertical-align: middle;
   color:white;
+
 }
-
-#recipeAdded, #coupon{
-  font-size:.6em;
-}
-
-
 
 @import url('https://fonts.googleapis.com/css?family=Gugi|Roboto')

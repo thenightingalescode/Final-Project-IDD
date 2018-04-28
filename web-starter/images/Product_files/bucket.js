@@ -1,7 +1,7 @@
 $( document ).ready(function() {
 
   $("#profile img").css({"opacity":".8"});
-$("#recipeAdded").hide();
+
 
 
   $("#profile img").on("click", function() {
@@ -14,9 +14,6 @@ $("#recipeAdded").hide();
     $(this).css(
         {"opacity":".5",}
     );
-  });
-  $("#addRecipe").on("click", function() {
-    $('#recipeAdded').show();
   });
 
   $( "#tabs" ).tabs();
