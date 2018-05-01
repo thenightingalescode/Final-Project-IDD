@@ -1,29 +1,40 @@
 
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
 
+@font-face{
+	font-family: 'Cubano';
+	src: url('Cubano/cubano-regular-webfont.eot');
+	src: url('Cubano/cubano-regular-webfont.eot') format('embedded-opentype'),
+	     url('Cubano/cubano-regular-webfont.woff') format('woff'),
+	     url('Cubano/cubano-regular-webfont.ttf') format('truetype'),
+	     url('Cubano/cubano-regular-webfont.svg') format('svg');
+}
+
+@import url('Cubano/cubano-regular-webfont.woff');
 
 body {
   background-color: #F7F7EA;
 }
 a,h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
   color:#47777F;
-  font-family:'Gugi', sans-serif;
+  font-family:'Cubano', sans-serif;
 }
 
  a>p{
-  color:black;
-  font-family:'Gugi', sans-serif;
+  color:#292F36;
+  font-family:'Roboto Slab', sans-serif;
   font-size: .9em;
 }
 
 p{
+  color:#292F36;
   font-size: 1.13em;
   font-family:'Roboto Slab', serif;
 }
 
 strong{
-  color:#FF7272;
-  font-family:'Gugi', sans-serif;
+  color:#FF3838;
+  font-family:'Roboto Slab', sans-serif;
 }
 .btn{
   border-radius: 20px;
@@ -50,7 +61,7 @@ strong{
   border-color:#AAA;
   border-radius: 20px;
   margin-top: 3px;
-  height:120px;
+  height:125px;
   display: flex;
   align-content: middle;
   font-family:'Roboto Slab', serif;
@@ -88,9 +99,5 @@ strong{
 }
 
 #recipeAdded, #coupon{
-  font-size:.6em;
+  font-size:.8em;
 }
-
-
-
-@import url('https://fonts.googleapis.com/css?family=Gugi|Roboto')

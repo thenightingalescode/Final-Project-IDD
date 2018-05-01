@@ -38,4 +38,7 @@ $("#recipeAdded").hide();
         }
     }
 })
+$("#couponsClick").on("click",function(){
+  $("#coupons").modal(show);
+});
 });
